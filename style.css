@@ -1,21 +1,43 @@
-li  {
-  display: inline;
-  padding: 15px;
-  border: 1px solid black;
-  margin: 0px 5% 50px 5% ;
+header, footer {
+  background-color: #444444;
 }
+
+#navlogo {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 0px 10px 0px;
+}
+
+[id^="navitem"] {
+  display: inline;
+  vertical-align: middle;
+  color: white;
+  padding: 10px 30px 10px 30px;
+}
+
+#div1 {
+  display: table;
+  margin: auto;
+}
+
+/* header {
+  display: table;
+  margin: auto;
+  width: 100%;
+} */
+
 
 #section1 {
-  display: inline;
-  margin-left: 25px;
+  display: table;
+  margin: auto;
+  margin-top: 30px;
 }
 
-#section2 {
-  margin-top: 25px;
-  display: inline;
+#section2, #section3, #section4 {
+  display: table;
+  margin: auto;
 }
 
-#section3 {
-  margin-left: 25px;
-  margin-bottom: 25px;
+#section5 {
+  margin-top: 30px;
 }
