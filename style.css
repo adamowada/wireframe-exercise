@@ -1,0 +1,21 @@
+li  {
+  display: inline;
+  padding: 15px;
+  border: 1px solid black;
+  margin: 0px 5% 50px 5% ;
+}
+
+#section1 {
+  display: inline;
+  margin-left: 25px;
+}
+
+#section2 {
+  margin-top: 25px;
+  display: inline;
+}
+
+#section3 {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
