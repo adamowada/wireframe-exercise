@@ -16,14 +16,14 @@ header, footer {
 }
 
 
-#div1 {
+#div1 {                         /*  for the heading */
   display: table;
   margin: auto;
   width: 960px;
   margin-bottom: 30px;
 }
 
-#div2 {
+#div2 {                          /*  middle body */
   display: table;
   margin: auto;
   width: 960px;
@@ -38,13 +38,35 @@ header, footer {
   margin: auto;
 }
 
-#section2, #section3, #section4 {
-  display: inline;
+#section2, #section3, #section4, #section5 {
+  display: inline-block;
 }
 
 #section2, #section3 {
-  display: inline;
   margin-right: 26px;
 }
 
 
+
+
+#div3 {                           /*  bottom body */
+  display: table;
+  margin: auto;
+  width: 960px;
+  height: 480px;
+  /* margin-bottom: 30px; */
+}
+
+#section6 {
+  height: 100px;
+  width: 100px;
+  overflow: auto;
+  /* padding-left: 30px; */
+}
+
+#scrollsection {
+  display: inline-block;
+  /* height: 480px;
+  width: 370px; */
+  /* margin-left: 10px; */
+}
